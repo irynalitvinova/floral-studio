@@ -14,7 +14,7 @@
 .promo-title {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 70px;
+  font-size: 3.5rem;
 }
 
 .promo-subtitle {
@@ -26,16 +26,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .promo-title {
-    font-size: 50px;
+    font-size: 2.7rem;
   }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 550px) {
+
   .promo-title {
-    font-size: 42px;
-  }
+     font-size: 2.5rem;
+   }
 }

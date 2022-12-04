@@ -71,12 +71,13 @@ body {
 
 .social-list {
   display: flex;
-  gap: 5px;
-}
+  gap: 20px;
+  justify-content: center;
+ }
 
 .social-link svg {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .social-link path {
@@ -84,7 +85,7 @@ body {
 }
 
 .social-link:hover path {
-  fill: var(--brand-color);
+  fill: var(--brand-color-dark);
 }
 
 .button-sign {
@@ -138,7 +139,8 @@ body {
   }
 
   .title {
-    font-size: 38px;
+    /* font-size: 38px; */
+    font-size: 2rem;
   }
 }
 
@@ -148,8 +150,12 @@ body {
     padding-right: 24px;
   }
 
+  .subtitle {
+    font-size: 16px;
+  }
+
   .title {
-    font-size: 34px;
+    /* font-size: 34px; */
 
   }
 
