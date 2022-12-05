@@ -9,21 +9,17 @@
   min-height: 100vh;
   padding-top: 100px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .promo-title {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 3.5rem;
-}
-
-.promo-subtitle {
-  margin-bottom: 30px;
+  font-size: 3.3rem;
 }
 
 .promo-img {
-  width: 360px;
+  width: 320px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,11 +30,14 @@
   .promo-title {
     font-size: 2.7rem;
   }
+
+  .promo-img {
+    width: 260px;
+  }
 }
 
 @media (max-width: 550px) {
-
   .promo-title {
-     font-size: 2.5rem;
-   }
+    font-size: 2.1rem;
+  }
 }

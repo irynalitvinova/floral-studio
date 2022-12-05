@@ -1,0 +1,72 @@
+.why {
+  background-image: url(../img/why/why-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-items {
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(3, minmax(auto, 260px));
+  column-gap: 30px;
+  row-gap: 50px;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.why-item {
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.why-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.why-item-icon--one {
+  background-color: var(--brand-color-light);
+  box-shadow: 0px 40px 100px var(--brand-color-light);
+}
+
+.why-item-icon--two {
+  background-color: var(--brand-color);
+  box-shadow: 0px 40px 100px var(--brand-color);
+}
+
+.why-item-icon--three {
+  background-color: var(--brand-color-dark);
+  box-shadow: 0px 40px 100px var(--brand-color-dark);
+}
+
+
+.why-item-title {
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.why-item-text {
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .why-items {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .why-item-icon {
+    margin-bottom: 20px;
+  }
+}
