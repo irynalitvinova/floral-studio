@@ -35,6 +35,10 @@ img {
   object-fit: cover;
 }
 
+button {
+  border: none;
+}
+
 body {
   font-size: 16px;
   line-height: 1.2;
@@ -50,8 +54,8 @@ body {
 }
 
 .section-page {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .title {
@@ -64,7 +68,7 @@ body {
 
 .divider-line {
   height: 3px;
-  width: 54px;
+  width: 7%;
   background-color: var(--brand-color);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -98,11 +102,11 @@ body {
   fill: var(--brand-color-dark);
 }
 
-.button-order{
+.button-order {
   padding: 9px 30px 10px;
   color: var(--alternate-text-color);
   background-color: var(--brand-color);
-  background-image: linear-gradient(to right, var(--brand-color-light), var(--brand-color)); 
+  background-image: linear-gradient(to right, var(--brand-color-light), var(--brand-color));
   border-radius: 28px;
   font-weight: 700;
   transition: all 0.5s;
@@ -110,7 +114,7 @@ body {
 
 .button-order:hover {
   background-color: var(--brand-color-light);
-   background-image: linear-gradient(to right, var(--brand-color), var(--brand-color-light));  
+  background-image: linear-gradient(to right, var(--brand-color), var(--brand-color-light));
 }
 
 .button-sign-white {
@@ -143,18 +147,12 @@ body {
 }
 
 @media (max-width: 991px) {
-
-  /* .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  } */
   .section-page {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 
   .title {
-    /* font-size: 38px; */
     font-size: 2rem;
   }
 }
@@ -168,13 +166,4 @@ body {
   .subtitle {
     font-size: 16px;
   }
-
-  .title {
-    /* font-size: 34px; */
-
-  }
-
-  .divider-line {
-    width: 34px;
-  }
-}
+ }

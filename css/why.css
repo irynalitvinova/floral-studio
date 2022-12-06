@@ -15,7 +15,7 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .why-item {
@@ -65,7 +65,9 @@
     grid-template-columns: 1fr;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 30px;
   }
+
   .why-item-icon {
     margin-bottom: 20px;
   }
