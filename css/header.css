@@ -7,14 +7,13 @@
 
 .header-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 30px;
+  display: flex;
   padding-right: 30px;
 }
 
@@ -50,8 +49,6 @@
   display: none;
   z-index: 10;
   transition: all 0.5s;
-  margin-left: auto;
-  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -104,8 +101,6 @@
 
   .navigation-burger {
     display: block;
-    position: absolute;
-    right: 24px;
   }
 
   .header-container {
