@@ -7,14 +7,12 @@
 
 .header-container {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
 
 .header-logo {
   display: flex;
-  padding-right: 30px;
+  justify-content: center;
 }
 
 .menu {
@@ -105,6 +103,9 @@
 
   .header-container {
     position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .navigation-wrapper {
@@ -134,7 +135,7 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    gap: 20px;
     align-items: center;
     height: auto;
   }
@@ -145,5 +146,10 @@
 
   .header-logo {
     z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
