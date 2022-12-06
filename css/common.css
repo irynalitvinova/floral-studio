@@ -68,7 +68,7 @@ body {
 
 .divider-line {
   height: 3px;
-  width: 7%;
+  width: 54px;
   background-color: var(--brand-color);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -163,7 +163,10 @@ body {
     padding-right: 24px;
   }
 
-  .subtitle {
+  /* .subtitle {
     font-size: 16px;
+  } */
+  .divider-line {
+    width: 34px;
   }
- }
+}

@@ -100,7 +100,7 @@
   }
 
   .navigation-burger {
-    display: inline-block;
+    display: block;
     position: absolute;
     right: 24px;
   }
@@ -139,7 +139,6 @@
     row-gap: 20px;
     align-items: center;
     height: auto;
-    z-index: -1;
   }
 
   .menu-left {
