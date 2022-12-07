@@ -37,8 +37,8 @@
 .contacts-info-item {
   display: grid;
   grid-template-columns: 30% 70%;
-  gap: 30px;
-  margin-bottom: 30px;
+  gap: 20px;
+  margin-bottom: 20px;
   align-self: start;
 }
 
@@ -48,14 +48,14 @@
 }
 
 .contacts-info-item-content-text {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .contacts-info-item-content-phone, .contacts-info-item-content-email {
   display: block;
   font-weight: 700;
   transition: all 0.3s;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .contacts-info-item-content-phone:hover, .contacts-info-item-content-email:hover {
@@ -76,15 +76,18 @@
   background-color: var(--alternate-text-color);
   padding: 50px;
 }
-.contacts-form-title  {
+
+.contacts-form-title {
   font-size: 28px;
   font-weight: 400;
   text-align: left;
   padding-bottom: 20px;
 }
+
 .contacts-form-text {
   padding-bottom: 20px;
 }
+
 .contacts-form {
   display: flex;
   flex-direction: column;
@@ -112,7 +115,7 @@
 }
 
 .contacts-form-input--message {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
 }
 
 .contacts-form-input--message::placeholder {
@@ -147,5 +150,11 @@
 
   .contacts-info-item {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 440px) {
+  .contacts-form-title {
+    font-size: 20px;
   }
 }
