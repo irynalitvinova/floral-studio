@@ -71,6 +71,7 @@ body {
   height: 3px;
   width: 54px;
   background-color: var(--brand-color);
+  border-radius: 40%;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: auto;
@@ -108,7 +109,7 @@ body {
   color: var(--alternate-text-color);
   background-color: var(--brand-color);
   background-image: linear-gradient(to right, var(--brand-color-light), var(--brand-color));
-  border-radius: 28px;
+  border-radius: 14px;
   font-weight: 700;
   transition: all 0.5s;
 }

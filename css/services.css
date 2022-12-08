@@ -8,7 +8,7 @@
   display: grid;
   grid-template-rows: 60% auto;
   gap: 20px;
-  max-height: 520px;
+  max-height: 500px;
   border-bottom: 2px solid var(--brand-color);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(238, 222, 232, 0.0739583) 0.01%, rgba(214, 221, 239, 0.2) 100.2%, rgba(253, 252, 253, 0.00729167) 100.21%, rgba(255, 255, 255, 0) 104%);
 }
