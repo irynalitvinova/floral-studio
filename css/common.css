@@ -119,35 +119,6 @@ body {
   background-image: linear-gradient(to right, var(--brand-color), var(--brand-color-light));
 }
 
-.button-sign-white {
-  padding: 11px 40px 12px;
-  color: var(--brand-color-dark);
-  background-color: var(--alternate-text-color);
-  border-radius: 30px;
-  font-weight: 700;
-  transition: all 0.5s;
-}
-
-.button-sign-white:hover {
-  color: var(--alternate-text-color);
-  background-color: var(--brand-color-dark);
-}
-
-.button-more {
-  padding: 10px 40px 11px;
-  color: var(--brand-color-dark);
-  background-color: var(--alternate-text-color);
-  box-shadow: inset 0 0 0 2px var(--brand-color-dark);
-  border-radius: 30px;
-  font-weight: 700;
-  transition: all 0.5s;
-}
-
-.button-more:hover {
-  color: var(--alternate-text-color);
-  background-color: var(--brand-color-dark);
-}
-
 @media (max-width: 991px) {
   .section-page {
     padding-top: 25px;
