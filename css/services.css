@@ -26,13 +26,6 @@
   padding: 10px;
 }
 
-.services-item-title {
-  font-size: 28px;
-  font-weight: 400;
-  padding-bottom: 10px;
-  text-align: left;
-}
-
 @media (max-width: 991px) {
   .services-items {
     grid-template-columns: repeat(2, 1fr);

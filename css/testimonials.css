@@ -39,11 +39,7 @@
 }
 
 .testimonials-item-name {
-  font-family: 'Playfair Display', serif;
   font-size: 20px;
-  font-weight: 400;
-  color: var(--text-color-accent-dark);
-  padding-bottom: 10px;
 }
 
 .testimonials-item-text {

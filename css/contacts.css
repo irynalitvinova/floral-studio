@@ -37,14 +37,9 @@
 .contacts-info-item {
   display: grid;
   grid-template-columns: 30% 70%;
-  gap: 20px;
+  column-gap: 35px;
   margin-bottom: 20px;
   align-self: start;
-}
-
-.contacts-info-item-title {
-  font-size: 24px;
-  text-align: left;
 }
 
 .contacts-info-item-content-text {
